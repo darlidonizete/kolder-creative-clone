@@ -1,0 +1,227 @@
+res :<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kolder Creative Clone</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css">
+<body data-scroll-container>
+  <header>
+    <div class="container">
+      <h1 class="logo">KOLDER CREATIVE</h1>
+      <nav aria-label="Main Navigation">
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">Menu</button>
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#courses">Cursos</a></li>
+          <li><a href="#teacher">Professor</a></li>
+          <li><a href="#testimonials">Depoimentos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="/signup" class="btn login-btn">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero" data-scroll data-scroll-speed="0.5">
+    <div class="container">
+      <h2 data-scroll data-scroll-speed="0.8" data-scroll-delay="0.1">Transforme Sua Paixão em Carreira</h2>
+      <p data-scroll data-scroll-speed="0.6" data-scroll-delay="0.2">Acesse mais de 200 aulas guiadas por Sam Kolder. Conecte-se com uma comunidade global de cineastas. Desbloqueie ferramentas e oportunidades exclusivas.</p>
+      <div class="cta-buttons" data-scroll data-scroll-speed="0.4" data-scroll-delay="0.3">
+        <a href="/signup" class="btn primary-btn">Começar agora</a>
+        <a href="#buy" class="btn secondary-btn">Comprar agora</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="courses">
+    <div class="container course-cards">
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d58c3adf82e877367ea4_editing.avif" alt="Domine a Edição de Vídeo" />
+        <h3>Domine a Edição de Vídeo</h3>
+        <p>Aprenda o fluxo de trabalho e atalhos de Sam usando seu material original.</p>
+      </article>
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d58dff0be72aac00ea24_network.avif" alt="Expanda Sua Rede" />
+        <h3>Expanda Sua Rede</h3>
+        <p>Desbloqueie oportunidades para viajar, trabalhar e se conectar com outros criadores através do nosso diretório de membros.</p>
+      </article>
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d58cd83b13c0b5bec6fa_business.avif" alt="Evolua Seu Negócio" />
+        <h3>Evolua Seu Negócio</h3>
+        <p>Ganhe vantagem competitiva acessando conhecimentos empresariais e modelos baixáveis.</p>
+      </article>
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d6561cfc3a7a94fd8190_job.avif" alt="Oportunidades de Trabalho" />
+        <h3>Oportunidades de Trabalho</h3>
+        <p>Publique e aplique para novas oportunidades com nosso quadro de vagas exclusivo.</p>
+      </article>
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d58d395078c0e4324b08_contests.avif" alt="Ganhe Grandes Prêmios!" />
+        <h3>Ganhe Grandes Prêmios!</h3>
+        <p>Libere sua criatividade, seja notado por marcas importantes e concorra a prêmios incríveis com nossos concursos épicos.</p>
+      </article>
+      <article class="course-card">
+        <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/64c2d58d6b01eb89c310a490_events.avif" alt="Eventos ao Vivo" />
+        <h3>Eventos ao Vivo</h3>
+        <p>Conecte-se com a comunidade e imersa-se em eventos online e presenciais.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="teacher" class="teacher-profile">
+    <div class="container">
+      <h2>Conheça Seu Professor</h2>
+      <p>Sam Kolder é um renomado cineasta autodidata conhecido por seu estilo único de edição de vídeo que influenciou uma nova era de criação de conteúdo.</p>
+      <img src="https://cdn.prod.website-files.com/640f71a1f77e5e357ebc94d0/6410bb73926758ac2bdce4d0_62cf0b6eb328f24a123e1bd7_kc-logo-light.svg" alt="Sam Kolder" />
+      <a href="#buy" class="btn primary-btn">Comprar agora</a>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <h2>Ouça Nossos Membros</h2>
+      <div class="testimonial-cards">
+        <article class="testimonial-card">
+          <blockquote>"O valor do KC All Access parece um roubo. Por menos do que o preço de um semestre na faculdade de cinema, você aprende muito mais do que um diploma inteiro. Mas o melhor do KC All Access é que você pode aprender a qualquer hora e em qualquer lugar."</blockquote>
+          <p class="author">@allan.yegon</p>
+          <p class="location">África</p>
+          <p class="stars">★★★★★</p>
+        </article>
+        <article class="testimonial-card">
+          <blockquote>"Admiro Sam Kolder há muito tempo. Ter a capacidade de aprender como ele trabalha e encurtar minha curva de aprendizado para chegar mais perto de um profissional que admiro é incrível."</blockquote>
+          <p class="author">@aleksbreiby</p>
+          <p class="location">Europa</p>
+          <p class="stars">★★★★★</p>
+        </article>
+        <article class="testimonial-card">
+          <blockquote>"Investir neste curso abriu muitas oportunidades para mim, permitindo que eu aprendesse habilidades específicas de forma eficiente e conhecesse pessoas com a mesma mentalidade."</blockquote>
+          <p class="author">@bea.ventures</p>
+          <p class="location">América do Norte</p>
+          <p class="stars">★★★★★</p>
+        </article>
+        <article class="testimonial-card">
+          <blockquote>"Entrei no KC pela comunidade, e é tudo o que eu esperava e mais. Há insights incríveis de uma variedade de criadores diferentes, tornando-o o melhor lugar para quem se interessa por viajar e criar."</blockquote>
+          <p class="author">@timothyladamson</p>
+          <p class="location">Oceania</p>
+          <p class="stars">★★★★★</p>
+        </article>
+        <article class="testimonial-card">
+          <blockquote>"O KC mudou minha vida. A confiança que tenho em mim mesma agora é muito maior do que quando comecei, e tudo isso aconteceu ao conhecer pessoas, participar de concursos, aprender nas sessões e no próprio curso."</blockquote>
+          <p class="author">@garvsawlani</p>
+          <p class="location">Ásia</p>
+          <p class="stars">★★★★★</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Preços</h2>
+      <div class="pricing-cards">
+        <article class="pricing-card">
+          <h3>DaVinci Resolve</h3>
+          <p>Pagamento único: <del>R$ 797</del> <strong>R$ 397</strong> para acesso vitalício</p>
+          <ul>
+            <li>19+ horas, 15 módulos, 90 vídeos</li>
+            <li>Para iniciantes</li>
+            <li>PDFs com atalhos baixáveis</li>
+          </ul>
+          <a href="/signup" class="btn primary-btn">Continuar</a>
+        </article>
+        <article class="pricing-card">
+          <h3>Acesso Completo</h3>
+          <p>Pagamento único: <del>R$ 1497</del> <strong>R$ 1047</strong> para acesso vitalício</p>
+          <ul>
+            <li>Mais de 190 aulas (33 horas)</li>
+            <li>DaVinci Resolve, Premiere Pro, After Effects e mais</li>
+            <li>Para iniciantes</li>
+            <li>Modelos e apresentações baixáveis</li>
+            <li>Acesso ao quadro de vagas e diretório de membros</li>
+            <li>Acesso à comunidade (grupo privado no FB e Discord)</li>
+          </ul>
+          <a href="/signup" class="btn primary-btn">Continuar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Haverá uma seção para Final Cut Pro?</h3>
+        <div class="faq-answer" id="faq1" hidden>
+          <p>Isso é algo que podemos oferecer no futuro; no entanto, por enquanto, estamos focados em educar nossos alunos nos programas que Sam pessoalmente utiliza.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Onde posso assistir às aulas?</h3>
+        <div class="faq-answer" id="faq2" hidden>
+          <p>Assim que criar sua conta e fazer login no seu painel de estudante personalizado, você terá acesso aos vídeos das aulas.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Quando terei acesso?</h3>
+        <div class="faq-answer" id="faq3" hidden>
+          <p>O processo de aceitação é instantâneo! Assim que seu pagamento for processado, você terá acesso ao curso adquirido.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Oferecem reembolso?</h3>
+        <div class="faq-answer" id="faq4" hidden>
+          <p>Não, desculpe. Não oferecemos mais reembolsos, pois você pode ver exatamente o que o curso e a comunidade incluem antes de fazer o pagamento.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Posso baixar as aulas para uso offline?</h3>
+        <div class="faq-answer" id="faq5" hidden>
+          <p>Não, nosso conteúdo não é baixável, mas você terá acesso vitalício a ele enquanto tiver conexão com a internet.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Por quanto tempo terei acesso ao conteúdo do curso?</h3>
+        <div class="faq-answer" id="faq6" hidden>
+          <p>Você terá ACESSO VITALÍCIO ao curso adquirido.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Seus atalhos são compatíveis com Windows também?</h3>
+        <div class="faq-answer" id="faq7" hidden>
+          <p>Sim, oferecemos nossos atalhos personalizados para sistemas MAC e Windows.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">Os cursos são para iniciantes ou cineastas experientes?</h3>
+        <div class="faq-answer" id="faq8" hidden>
+          <p>Nossos cursos são para qualquer pessoa disposta a aprender a arte da edição de vídeo! Se você está começando ou é um cineasta avançado, ambos os cursos são desenvolvidos para todos os níveis.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question" aria-expanded="false" tabindex="0">O conteúdo do curso tem legendas?</h3>
+        <div class="faq-answer" id="faq9" hidden>
+          <p>Nosso curso agora oferece legendas em Inglês, Japonês, Chinês, Português, Árabe e Russo!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <a href="#hero">Início</a>
+        <a href="#courses">Cursos</a>
+        <a href="#teacher">Professor</a>
+        <a href="#faq">FAQ</a>
+        <a href="/signup">Cadastrar</a>
+      </nav>
+      <p>&copy; 2023 Kolder Creative Clone. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
